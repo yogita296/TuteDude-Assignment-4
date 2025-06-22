@@ -5,9 +5,7 @@ file=open('output.txt','r+')
 a=input('\nEnter text to write to the file: ')
 writing_file = file.write(a+'\n')
 file.close()
-file=open('output.txt','r+')
 print('Data successfully written to output.txt.')
-file.close()
 
 
 # Appends additional data to the same file.

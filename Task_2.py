@@ -15,7 +15,6 @@ file=open('output.txt','a')
 b=input('\nEnter additional text to append: ')
 appending_file = file.write(b+'\n')
 file.close()
-file=open('output.txt','r')
 print('Data successfully appended.')
 
 
